@@ -10,13 +10,13 @@ const countReducer=(state = {counter:0}, action)=>{
             return{
                 counter:state.counter-1
         }
-        case 'incrementBy2':
+        case 'incrementBy5':
             return{
-                counter: state.counter+2
+                counter: state.counter+5
             }
-        case 'decrementBy2':
+        case 'decrementBy5':
             return{
-                counter: state.counter-2
+                counter: state.counter-5
             }
         default: return state
     }
